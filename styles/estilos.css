@@ -1,0 +1,11 @@
+ul{
+    padding: 0px;
+    list-style: none; /*quitar bullets*/
+}
+body{
+    margin:0px
+}
+.navbar{
+    display: flex; /*mueve una al lado de la otra. no en lista*/
+    justify-content: space-between;
+}
