@@ -9,3 +9,6 @@ body{
     display: flex; /*mueve una al lado de la otra. no en lista*/
     justify-content: space-between;
 }
+.class{
+    height: 70px
+}
