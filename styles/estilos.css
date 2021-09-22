@@ -9,18 +9,32 @@ body{
     display: flex; /*mueve una al lado de la otra. no en lista*/
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .class{
     height: 70px}
 .mainButton{
     background-color: palevioletred;
     color: white;
+=======
+.button{
+>>>>>>> 6-crear-boton-login
     border: 0px;
     padding: 7px 10px;
     border-radius: 6px;
     font-weight: bolder;
 }
-.mainButton:hover{
+.button:hover{
     cursor: pointer;
-    box-shadow: 2px 2px pink;
     transform: scale(1.05);
+}
+.mainButton{
+    background-color: palevioletred;
+    color: white;
+}
+.mainButton:hover{
+    box-shadow: 2px 2px pink;
+}
+.secondaryButton{
+    background-color: royalblue;
+    
 }
