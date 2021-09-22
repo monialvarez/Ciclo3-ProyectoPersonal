@@ -9,15 +9,9 @@ body{
     display: flex; /*mueve una al lado de la otra. no en lista*/
     justify-content: space-between;
 }
-<<<<<<< HEAD
-.class{
-    height: 70px}
-.mainButton{
-    background-color: palevioletred;
-    color: white;
-=======
+.logo{
+    height: 90px}
 .button{
->>>>>>> 6-crear-boton-login
     border: 0px;
     padding: 7px 10px;
     border-radius: 6px;
@@ -36,5 +30,19 @@ body{
 }
 .secondaryButton{
     background-color: royalblue;
-    
 }
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+  }
+  
+  .buscar:focus-within {
+    border: 1px solid blue;
+  }
+  
+  .buscar > input {
+    outline: none;
+    border: 0px;
+  }
