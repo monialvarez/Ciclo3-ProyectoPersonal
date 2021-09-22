@@ -9,3 +9,16 @@ body{
     display: flex; /*mueve una al lado de la otra. no en lista*/
     justify-content: space-between;
 }
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+}
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input {/**/
+    outline: none;
+    border: 0px;
+}
