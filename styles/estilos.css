@@ -58,3 +58,21 @@ body{
 .iconoBusqueda:hover{
     color: blue
 }
+
+/**/
+.contenedorImagen{
+    width:  350px;
+    height: 350px;
+    display: flex
+}
+.contenedorImagen > img{
+    /*Fill contenido del contenedor con la imagen. Solo funciona si el otro tiene flex*/
+    object-fit: cover;
+    width: 100%;    /*Tamaño del 100% de la original*/
+}
+.breedCardcontainer{
+    display: flex;
+}
+.breedCard{
+    margin: 10px
+}
