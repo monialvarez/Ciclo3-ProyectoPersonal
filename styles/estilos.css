@@ -51,6 +51,8 @@ body{
     border: 1px solid blue;
   }
   
+/*Esto va a aplicar a todas las etiquetas de tipo input que estén por debajo de la clase buscar.
+  Es decir, si se tiene la clase buscar y y dentro de se tiene un img entonces se aplican esas propiedades.*/
   .buscar > input {
     outline: none;
     border: 0px;
