@@ -1,0 +1,97 @@
+ul{
+  padding: 0px;
+  list-style: none; /*quitar bullets*/
+}
+body{
+  margin:0px
+}
+.navbar{
+  display: flex; /*mueve una al lado de la otra. no en lista*/
+  justify-content: space-between;
+  background-color: rgb(88, 85, 221);
+  border-bottom: 1px solid blue;
+  box-shadow: 1px 1px blue;
+}
+.navbar>li{
+  display: flex;
+  align-items: center;        /*Pone los elementos en el centro de la barra de navegación*/
+}
+.logo{
+  height: 90px}
+.button{
+  border: 0px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.mainButton{
+  background-color: palevioletred;
+  color: white;
+}
+.mainButton:hover{
+  box-shadow: 2px 2px pink;
+}
+.secondaryButton{
+  background-color: royalblue;
+}
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  display: flex;
+  justify-content:space-between ;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+/*Esto va a aplicar a todas las etiquetas de tipo input que estén por debajo de la clase buscar.
+Es decir, si se tiene la clase buscar y y dentro de se tiene un img entonces se aplican esas propiedades.*/
+.buscar > input {
+  outline: none;
+  border: 0px;
+}
+.iconoBusqueda:hover{
+  color: blue
+}
+
+/**/
+.contenedorImagen{
+  width:  350px;
+  height: 350px;
+  display: flex
+}
+.contenedorImagen:hover{
+  transform: scale(1.02);
+}
+
+.contenedorImagen > img{
+  /*Fill contenido del contenedor con la imagen. Solo funciona si el otro tiene flex*/
+  object-fit: cover;
+  width: 100%;    /*Tamaño del 100% de la original*/
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.breedCardcontainer{
+  display: flex;
+}
+.breedCard{
+  margin: 10px;
+  background-color: rgb(144, 144, 148);
+  box-shadow: 5px 5px whitesmoke;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.breedTitle{
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: large;
+  font-family: sans-serif;
+}
