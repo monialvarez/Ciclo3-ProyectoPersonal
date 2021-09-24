@@ -8,6 +8,13 @@ body{
 .navbar{
     display: flex; /*mueve una al lado de la otra. no en lista*/
     justify-content: space-between;
+    background-color: rgb(88, 85, 221);
+    border-bottom: 1px solid blue;
+    box-shadow: 1px 1px blue;
+}
+.navbar>li{
+    display: flex;
+    align-items: center;        /*Pone los elementos en el centro de la barra de navegación*/
 }
 .logo{
     height: 90px}
@@ -36,6 +43,8 @@ body{
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    display: flex;
+    justify-content:space-between ;
   }
   
   .buscar:focus-within {
@@ -46,3 +55,6 @@ body{
     outline: none;
     border: 0px;
   }
+.iconoBusqueda:hover{
+    color: blue
+}
